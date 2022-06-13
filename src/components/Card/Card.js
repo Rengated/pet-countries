@@ -1,7 +1,7 @@
 import '../../styles/card.css'
 
 export const Card = (props) => {
-    console.log(props)
+ 
     return(
         <div className="card">
             <img src={props.src} className="card__image"/>

@@ -1,16 +1,21 @@
  
 
 .search{
+    display: flex;
+    align-items: center;
     height: 60px;
-    padding: 20px 20px;
+    padding: 0px 20px;
     background-color: white;
     width: 500px;
 
 }
 
 .search__input{
+    flex-grow: 1;
+    font-size: 20px;
+    height: 40px;
     border: none;
-    color:   #8f8d8d;
+    color:   #5f5f5f;
 }
 
 .fa-magnifying-glass{

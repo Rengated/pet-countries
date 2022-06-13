@@ -2,11 +2,12 @@ import { useState } from "react"
 import '../../styles/filter.css'
 
 
-export const Filter = () => {
-    const [currentValue, setValue] = useState('Filtered by Region')
-
+export const Filter = (props) => {
     const changeValue = (e) => {
-        setValue(e.currentTarget.textContent)
+        props.changeFilter(e.target.selectedOptions[0].text)
+        console.log(e.target.selectedOptions[0].text)
+
+
     }
 
 
@@ -23,24 +24,44 @@ export const Filter = () => {
         disabled
         selected
           >
-            Filtered by Region
+            Filtered by RegionBlock
          </option>
         <option>
-          Aftica
+          EU 
         </option>
         <option>
-          America
+        EFTA 
         </option>
         <option>
-          Asia
+        CARICOM 
         </option>
         <option>
-          Europe
+        PA 
         </option>
         <option>
-          Ocenia
+        AU 
         </option>
-    
+        <option>
+        USAN 
+        </option>
+        <option>
+        EEU  
+        </option>
+        <option>
+        AL   
+        </option>
+        <option>
+        ASEAN  
+        </option>
+        <option>
+        SAARC   
+        </option>
+        <option>
+        NAFTA   
+        </option>
+        <option>
+        CEFTA   
+        </option>
       </select>
     )
   
