@@ -1,0 +1,16 @@
+.header{
+    padding: 20px 0px;
+}
+
+.header__title{
+    font-size: 25px;
+    font-weight: bold;
+      
+}
+
+.header__button{
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+
+}
