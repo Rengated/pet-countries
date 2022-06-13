@@ -1,0 +1,19 @@
+ 
+
+.search{
+    height: 60px;
+    padding: 20px 20px;
+    background-color: white;
+    width: 500px;
+
+}
+
+.search__input{
+    border: none;
+    color:   #8f8d8d;
+}
+
+.fa-magnifying-glass{
+    margin-right: 20px;
+    color:  #8f8d8d  !important;
+}

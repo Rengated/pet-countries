@@ -8,12 +8,13 @@ import { Header } from './components/Header/Header';
 function App() {
  
     return (
-        <div className='container-xl'>  
+         <>
             <Header/>
             <Routes>
                 <Route path="/" element={<Home/>}/>          
             </Routes>
-        </div>
+        </>
+     
         
  
     )

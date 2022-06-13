@@ -1,3 +1,14 @@
-*{
+*{  box-sizing: border-box;
     font-family: Nunito Sans;
+    padding: 0px;
+    margin: 0px;    
+}
+
+body{
+    min-height: 100vh;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
 }

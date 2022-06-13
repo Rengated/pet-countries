@@ -1,0 +1,35 @@
+.card{
+ 
+    margin-bottom: 50px;
+    width: 300px;
+
+}
+
+.card__image{
+    height: 192px;
+    width: 300px;
+}
+
+.card__information{
+    padding-left: 20px; 
+    padding-top: 20px;
+
+}
+
+.countri-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.information__block{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.information__title{
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+
