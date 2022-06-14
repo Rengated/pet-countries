@@ -1,9 +1,16 @@
+import { useNavigate } from 'react-router-dom'
 import '../../styles/card.css'
 
 export const Card = (props) => {
+    const navigate = useNavigate();
  
+    const handleCardClick = () => {
+        navigate('/country', {state: {name: props.name}})
+    }
+
+
     return(
-        <div className="card">
+        <div onClick={handleCardClick} className="card">
             <img src={props.src} className="card__image"/>
             <div className="card__information">
                 <p className="countri-name">{props.name}</p>

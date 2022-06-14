@@ -4,6 +4,11 @@
     margin: 0px;    
 }
 
+p, h1{
+    padding: 0;
+    margin-bottom: 0px;
+}
+
 body{
     min-height: 100vh;
 }
