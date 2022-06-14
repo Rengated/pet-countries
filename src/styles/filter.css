@@ -1,0 +1,11 @@
+.filter{
+    padding: 20px;
+    height: 62px;
+    width: 250px;
+    border: none;
+
+}
+
+.filter:active{
+    border: none;
+}
