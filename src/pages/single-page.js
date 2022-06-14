@@ -48,7 +48,7 @@ export default function SinglePage(props){
                             </div>
                             <div className={styles.additional__data_item}>
                                 <p className={styles.additional__data__title}>Borders</p>
-                                <p className={styles.additional__data__subtitle}>{countryInf.borders.map(border => border +' ')}</p>
+                                <p className={styles.additional__data__subtitle}>{countryInf.borders?.map(border => border +' ')}</p>
                             </div>
                             <div className={styles.additional__data_item}>
                                 <p className={styles.additional__data__title}>Continents</p>
@@ -62,7 +62,7 @@ export default function SinglePage(props){
                                 </div>
                                 <div className={styles.additional__data_item}>
                                     <p className={styles.additional__data__title}>Languages</p>
-                                    <p className={styles.additional__data__subtitle}>{Object.keys(countryInf.languages).map(item => item + ' ')}</p>
+                                    <p className={styles.additional__data__subtitle}>{Object.keys(countryInf.languages)?.map(item => item + ' ')}</p>
                                 </div>
                                 <div className={styles.additional__data_item}>
                                     <p className={styles.additional__data__title}>Status</p>
