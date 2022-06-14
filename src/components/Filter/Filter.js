@@ -5,13 +5,15 @@ import '../../styles/filter.css'
 export const Filter = (props) => {
     const changeValue = (e) => {
         props.changeFilter(e.target.selectedOptions[0].text)
-        console.log(e.target.selectedOptions[0].text)
-
+     
+        
 
     }
 
 
     return(
+      <>
+         
         <select
         placeholder="213"
         onChange={changeValue}
@@ -20,12 +22,16 @@ export const Filter = (props) => {
  
         
       >
-        <option
-        disabled
-        selected
+         <option
+        hidden
+       
           >
             Filtered by RegionBlock
          </option>
+        <option>
+          all regions
+        </option>
+      
         <option>
           EU 
         </option>
@@ -63,6 +69,7 @@ export const Filter = (props) => {
         CEFTA   
         </option>
       </select>
+      </>
     )
   
 }

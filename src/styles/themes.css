@@ -1,0 +1,29 @@
+ 
+
+.Dark-Header{
+    background-color: hsl(210,21.8%,21.6%);
+    color:#fff;
+}
+
+.Dark-Body{
+    background-color: hsl(205,25%,17.3%) !important;
+}
+
+.Dark-Element{
+    color: rgb(150, 148, 148);
+    background-color: hsl(210,21.8%,21.6%);
+}
+
+.Dark-Text{
+    color: white;
+}
+
+.White-Body{
+    color: black;
+    background-color: #fff;
+}
+
+.White-Text{
+    color: #000;
+}
+
